@@ -6,14 +6,20 @@
 //
 
 import UIKit
+import WebKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+class ViewController: UIViewController, WKUIDelegate {
+    var webView: WKWebView!
+        override func loadView() {
+                super.loadView()
+            let url = URL(string: "http://localhost:3000/")
+            let request = URLRequest(url: url!)
+            
+            webView = WKWebView(frame: self.view.frame)
+            webView.frame.size.height = 350
+            webView.configuration.defaultWebpagePreferences.allowsContentJavaScript = true
+            webView.load(request)
+            self.view.addSubview(self.webView)
     }
-
-
 }
 

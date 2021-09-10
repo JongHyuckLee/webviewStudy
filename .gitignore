@@ -17,3 +17,6 @@ webviewReactNativePractice/web-build/
 webviewReactNativePractice/.DS_Store
 
 .idea
+
+mobile-webview/node_modules
+mobile-webview/yarn.lock
