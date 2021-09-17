@@ -20,3 +20,22 @@ webviewReactNativePractice/.DS_Store
 
 mobile-webview/node_modules
 mobile-webview/yarn.lock
+
+
+androidWebView/*.iml
+androidWebView/.gradle
+androidWebView/local.properties
+androidWebView/.idea/caches
+androidWebView/.idea/libraries
+androidWebView/.idea/modules.xml
+androidWebView/.idea/workspace.xml
+androidWebView/.idea/navEditor.xml
+androidWebView/.idea/assetWizardSettings.xml
+androidWebView/.DS_Store
+androidWebView/build
+androidWebView/captures
+androidWebView/.externalNativeBuild
+androidWebView/.cxx
+androidWebView/local.properties
+androidWebView/.gitignore
+androidWebView/.idea
